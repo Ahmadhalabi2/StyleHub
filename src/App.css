@@ -1,67 +1,7 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-  background: #fff;
-  font-size: clamp(14px, 0.875rem + 0.25vw, 18px);
-}
-
-img,
-video,
-svg {
-  max-width: 100%;
-  height: auto;
-}
-
 .app-wrapper {
   min-height: 100vh;
-  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   background: #fff;
   width: 100%;
-  max-width: 480px;
-  margin: 0 auto;
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-           env(safe-area-inset-bottom) env(safe-area-inset-left);
-}
-
-/* موبايل كبير + أي شاشة أوسع: خلفية رمادية وظل خفيف */
-@media (min-width: 520px) {
-  body {
-    background: #ebebf0;
-  }
-
-  .app-wrapper {
-    box-shadow: 0 0 24px rgba(0, 0, 0, 0.08);
-  }
-}
-
-/* تابلت */
-@media (min-width: 768px) {
-  .app-wrapper {
-    max-width: 720px;
-  }
-}
-
-/* لابتوب */
-@media (min-width: 1200px) {
-  .app-wrapper {
-    max-width: 960px;
-  }
-}
-
-/* شاشات كبيرة جداً */
-@media (min-width: 1600px) {
-  .app-wrapper {
-    max-width: 1200px;
-  }
 }
