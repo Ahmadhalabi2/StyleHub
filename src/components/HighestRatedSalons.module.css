@@ -1,0 +1,137 @@
+.section {
+  padding: 16px 20px;
+  background: #fff;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.seeAll {
+  background: none;
+  border: none;
+  font-size: 13px;
+  color: #6c3ef4;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  min-width: 165px;
+  background: #f4f4f4;
+  border-radius: 18px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: 8px 8px 0 8px;
+}
+
+.imageWrapper {
+  position: relative;
+  height: 130px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.salonImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.heartBtn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+.heartIcon {
+  width: 14px;
+  height: 12px;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.salonName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.ratingRow {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.star {
+  color: #ffc107;
+  font-size: 13px;
+}
+
+.ratingNum {
+  font-size: 12px;
+  color: #555;
+  font-weight: 500;
+}
+
+.arrowBtn {
+  background: #e8e8e8;
+  border: none;
+  border-radius: 10px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  font-size: 22px;
+  color: #1a1a1a;
+  line-height: 1;
+  font-weight: 600;
+}
