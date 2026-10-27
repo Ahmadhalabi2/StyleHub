@@ -13,7 +13,10 @@ const ExclusiveDeals = () => {
           <p className={styles.bannerSubtitle}>Get Special Discounts</p>
           <p className={styles.bannerTitle}>Up to 50%</p>
           <button className={styles.bookBtn}>
-            Book Now <span>↗</span>
+            Book Now
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2 12L12 2M12 2H5M12 2V9" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+            </svg>
           </button>
         </div>
         <div className={styles.bannerImage}>
